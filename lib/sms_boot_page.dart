@@ -19,9 +19,9 @@ class _SmsBootPageState extends State<SmsBootPage> {
   bool isLoading = false;
   TextEditingController mesage = TextEditingController();
   TwilioFlutter twilioFlutter = TwilioFlutter(
-      accountSid: 'AC78c5307bb59b28a0708f2f3a13eeb692',
-      authToken: 'effac6c10914f6f046772159083be917',
-      twilioNumber: '+16823271564');
+      accountSid: 'xxxxxxx',
+      authToken: 'xxxxx',
+      twilioNumber: '+xxxxxx');
   Uint8List? fileBytes;
   String uri = '';
   String? fileName;
